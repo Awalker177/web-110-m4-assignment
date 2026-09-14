@@ -1,0 +1,71 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: #525252;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  margin-top: 10px;
+  font-size: large;
+  border: 2px solid #7e4040;
+  
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:active {
+  color: #7e4040;
+}
+
+a:hover {
+  color: #d2ec3b;
+}
+
+h4.phone {
+  font-size: 1.2em;
+  margin: 0;
+  background-color: #7e4040;
+  text-transform: capitalize;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.prices {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  color: #333;
+  background-color: #e6ebb4;
+  line-height: 3;
+}
+
+.menu-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.menu-items {
+  line-height: 1.5;
+
+}
+
+
